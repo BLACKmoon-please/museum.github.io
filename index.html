@@ -8,8 +8,6 @@
     <link rel="stylesheet" href="TemplateData/style.css">
     <script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
     <script src="Build/IPHelper.js"></script>
-
-   <script type="thttps://cdn.jsdelivr.net/gh/jshttp/mime-db@master/db.json"></script>
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
@@ -61,9 +59,7 @@
 
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/museum.github.io.loader.js";
-      var db = require('mime-db');
-      var config = db['application/binary'];
-      config = {
+      var config  = {
         dataUrl: buildUrl + "/museum.github.io.data.unityweb",
         frameworkUrl: buildUrl + "/museum.github.io.framework.js.unityweb",
         codeUrl: buildUrl + "/museum.github.io.wasm.unityweb",
