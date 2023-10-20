@@ -1,0 +1,14 @@
+{
+  "application/octet-stream": {
+    "extensions": ["dat","unity","unity3d"]
+  },
+  "application/binary": {
+    "extensions": ["unityweb"]
+  },
+  "application/javascript": {
+    "extensions": ["js"]
+  },
+  "application/json": {
+    "extensions": ["json"]
+  },
+}
