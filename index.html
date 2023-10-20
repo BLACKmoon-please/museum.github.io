@@ -61,7 +61,9 @@
 
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/museum.github.io.loader.js";
-      var config = {
+      var db = require('mime-db');
+      var config = db['application/binary'];
+      config = {
         dataUrl: buildUrl + "/museum.github.io.data.unityweb",
         frameworkUrl: buildUrl + "/museum.github.io.framework.js.unityweb",
         codeUrl: buildUrl + "/museum.github.io.wasm.unityweb",
