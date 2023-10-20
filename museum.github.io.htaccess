@@ -1,1 +1,1 @@
-AddHandler application/binary.unityweb
+AddHandler application/octet-stream.unityweb
