@@ -6,6 +6,7 @@
     <title>Unity WebGL Player | DinosaurMuseum_web</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
+
     <script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
     <script src="Build/IPHelper.js"></script>
   </head>
@@ -59,10 +60,10 @@
 
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/museum.github.io.loader.js";
-      var config  = {
-        dataUrl: buildUrl + "/museum.github.io.data.unityweb",
-        frameworkUrl: buildUrl + "/museum.github.io.framework.js.unityweb",
-        codeUrl: buildUrl + "/museum.github.io.wasm.unityweb",
+      var config = {
+        dataUrl: buildUrl + "/museum.github.io.data",
+        frameworkUrl: buildUrl + "/museum.github.io.framework.js",
+        codeUrl: buildUrl + "/museum.github.io.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "V",
         productName: "DinosaurMuseum_web",
